@@ -1,13 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { shallowEqual, useSelector } from 'react-redux'
+import { shallowEqual, useDispatch, useSelector } from 'react-redux'
+import { useHistory } from 'react-router-dom'
 import {
   PageWrapper,
   LearnModuleHeader,
   FlexWrapper,
   ContainerWrapper
 } from '../../../components'
+import ROUTES from '../../../const/routes'
 import { getSubjectLogo } from '../../../helpers'
+import { updateSessionName } from '../../../redux/learn/actions'
 import { RootState } from '../../../redux/store'
 import {
   CardSubtitle,
@@ -20,20 +23,22 @@ import { ChapterWrapper } from '../../student/Learn/subcomponent'
 import { TAB, TABS } from '../../teacher/Assignment/subcomponents'
 
 const LocalMaterial = () => {
-  const { selectedChapterId, getLoaclSubjectLists } = useSelector(
-    (state: RootState) => ({
-      selectedChapterId: state.learn.selectedChapterId,
-      getLoaclSubjectLists: state.learn.getLoaclSubjectLists as any
-    }),
-    shallowEqual
-  )
+  const { selectedChapterId, getLoaclSubjectLists, selectedChapterName } =
+    useSelector(
+      (state: RootState) => ({
+        selectedChapterId: state.learn.selectedChapterId,
+        selectedChapterName: state.learn.selectedChapterName,
+        getLoaclSubjectLists: state.learn.getLoaclSubjectLists as any
+      }),
+      shallowEqual
+    )
 
+  const history = useHistory()
+  const dispatch = useDispatch()
   const [filterData] = getLoaclSubjectLists?.Subjects?.map((list: any) =>
     list?.Chapters?.filter((d: any) => d?.ChapterID === selectedChapterId)
   )
-  console.log(filterData[0]?.Session)
-  console.log(selectedChapterId)
-  console.log('====================================')
+
   return (
     <PageWrapper>
       <ContainerWrapper noMargin>
@@ -41,9 +46,9 @@ const LocalMaterial = () => {
           <div id="wrapper">
             <LearnModuleHeader
               src={getSubjectLogo({
-                subject: `${filterData?.SessionName}`
+                subject: `${selectedChapterName}`
               })}
-              title={filterData?.SessionName}
+              title={selectedChapterName}
             />
           </div>
           {/* <DropDownWrapper>
@@ -62,7 +67,13 @@ const LocalMaterial = () => {
           <TAB eventKey="material" title="Material">
             <>
               {filterData[0]?.Session?.map((item: any, index: any) => (
-                <ChapterWrapper key={index} onClick={() => {}}>
+                <ChapterWrapper
+                  key={index}
+                  onClick={() => {
+                    history.push(ROUTES.LOCAL_TOPIC_LIST)
+                    dispatch(updateSessionName(item.SessionName))
+                  }}
+                >
                   <ChapterNumber>{index + 1}</ChapterNumber>
                   <CardTitle fontSize="18px">{item.SessionName}</CardTitle>
                   <SubtitleWrapper>

@@ -10,7 +10,10 @@ import {
 } from '../../../components'
 import ROUTES from '../../../const/routes'
 import { getSubjectLogo } from '../../../helpers'
-import { UpdateSelectedChapterId } from '../../../redux/learn/actions'
+import {
+  UpdateSelectedChapterId,
+  updateChapterName
+} from '../../../redux/learn/actions'
 import { RootState } from '../../../redux/store'
 import {
   ChapterNumber,
@@ -65,6 +68,7 @@ const LocalChapterList = () => {
               onClick={() => {
                 histroy.push(ROUTES.LOCAL_MATERIALLIST)
                 dispatch(UpdateSelectedChapterId(item?.ChapterID))
+                dispatch(updateChapterName(item.ChapterName))
               }}
             >
               <ChapterNumber>{index + 1}</ChapterNumber>

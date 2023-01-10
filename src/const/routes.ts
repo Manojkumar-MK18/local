@@ -90,7 +90,8 @@ const ROUTES = {
 
   LOCALLEARN: '/localLearn',
   LOCALCHAPTER_LIST: '/localChapterList',
-  LOCAL_MATERIALLIST: '/localMatrialList'
+  LOCAL_MATERIALLIST: '/localMatrialList',
+  LOCAL_TOPIC_LIST: '/localTopicList'
 }
 
 export default ROUTES
