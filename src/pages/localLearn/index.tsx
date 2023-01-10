@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
+import { useHistory } from 'react-router-dom'
 import {
   ContainerWrapper,
   DropdownWrapper,
@@ -8,7 +9,9 @@ import {
   SectionTitle
 } from '../../components'
 import { DropdownListProps } from '../../components/EditableDropdown/typings'
+import ROUTES from '../../const/routes'
 import { getSubjectLogo } from '../../helpers'
+import { UpdateSelectedSubjectId } from '../../redux/learn/actions'
 import { getLocalSubjectsListGrade6 } from '../../redux/learn/api'
 import { RootState } from '../../redux/store'
 import {
@@ -28,9 +31,8 @@ const LoacalLearn = () => {
     shallowEqual
   )
   const dispatch = useDispatch()
-  console.log('====================================')
-  console.log(getSubjectLists)
-  console.log('====================================')
+  const history = useHistory()
+
   return (
     <LearnWrapper>
       <ContainerWrapper>
@@ -55,7 +57,10 @@ const LoacalLearn = () => {
                   title={list?.SubjectName}
                   isBold
                   src={getSubjectLogo({ subject: list?.SubjectName })}
-                  onSubmit={() => {}}
+                  onSubmit={() => {
+                    history.push(ROUTES.LOCALCHAPTER_LIST)
+                    dispatch(UpdateSelectedSubjectId(list?.SubjectId))
+                  }}
                 />
               </div>
             ))}

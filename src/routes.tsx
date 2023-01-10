@@ -87,6 +87,7 @@ import {
   Settings
 } from './pages'
 import LoacalLearn from './pages/localLearn'
+import LocalChapterList from './pages/localLearn/ChapterList'
 
 const Routes = () => {
   return (
@@ -296,6 +297,10 @@ const Routes = () => {
       />
       <ProtectedRoute path={ROUTES.LEARN_SETTINGS} component={Settings} />
       <ProtectedRoute path={ROUTES.LOCALLEARN} component={LoacalLearn} />
+      <ProtectedRoute
+        path={ROUTES.LOCALCHAPTER_LIST}
+        component={LocalChapterList}
+      />
     </Switch>
   )
 }
