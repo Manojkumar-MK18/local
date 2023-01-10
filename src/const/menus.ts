@@ -72,6 +72,11 @@ const teacherAdmin = [
         to: ROUTES.TEACHER_LOGIN_STUDENT_DATESELECTOR
       }
     ]
+  },
+  {
+    icon: ['fas', 'book'],
+    label: 'Local Learn',
+    to: ROUTES.LOCALLEARN
   }
 ]
 const staffAdmin = [

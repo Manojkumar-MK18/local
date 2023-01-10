@@ -6,7 +6,7 @@ interface GetSubjectLogoProps {
 
 const getSubjectLogo = ({ subject }: GetSubjectLogoProps): string => {
   let logo = ''
-  switch (subject.toLowerCase()) {
+  switch (subject?.toLowerCase()) {
     case 'chemistry':
       logo = ICONS.CHEMISTRY
       break

@@ -86,6 +86,7 @@ import {
   LearnModuleSetting,
   Settings
 } from './pages'
+import LoacalLearn from './pages/localLearn'
 
 const Routes = () => {
   return (
@@ -294,6 +295,7 @@ const Routes = () => {
         component={LearnModuleSetting}
       />
       <ProtectedRoute path={ROUTES.LEARN_SETTINGS} component={Settings} />
+      <ProtectedRoute path={ROUTES.LOCALLEARN} component={LoacalLearn} />
     </Switch>
   )
 }

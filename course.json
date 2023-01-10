@@ -1,0 +1,2199 @@
+{
+  "grade6": { 
+    "course_id": "GR06001",
+    "Course_Name": "Grade06",
+    "Subjects": [
+      {
+        "Chapters": [
+          {
+            "ChapterID": "GR06SC01CH12",
+            "ChapterName": "Electricity and Circuits",
+            "ChapterSequence": 12,
+            "Session": [
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06SC01CH12S01M02",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06SC01CH12S01M03",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06SC01CH12S01M04",
+                      "MaterialName": "Chapter12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06SC01CH12S01M01",
+                      "MaterialName": "T1: Electricity ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T001.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T001.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH12S01",
+                "SessionName": "Electricity ",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S01TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teacherpptx/G6-P12-S1.pptx",
+                      "TeachingMaterialName": "Session 1 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S01TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teachersolution/ch12-session-1-electricity.pdf",
+                      "TeachingMaterialName": "Session1 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06SC01CH12S02M02",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06SC01CH12S02M03",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06SC01CH12S02M04",
+                      "MaterialName": "Chapter 12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06SC01CH12S02M01",
+                      "MaterialName": "T2: Electric Cell ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T002.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T002.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH12S02",
+                "SessionName": "Electric Cell ",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S02TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teacherpptx/G6-P12-S1.pptx",
+                      "TeachingMaterialName": "Session 2 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S02TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teachersolution/ch12-session-2-electric-cell.pdf",
+                      "TeachingMaterialName": "Session2 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06SC01CH12S03M02",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S03M06",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06SC01CH12S03M03",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S03M07",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06SC01CH12S03M04",
+                      "MaterialName": "Chapter 12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S03M08",
+                      "MaterialName": "Chapter 12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06SC01CH12S03M01",
+                      "MaterialName": "T3: Torch Bulb ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T003.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T003.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S03M05",
+                      "MaterialName": "T4: A Bulb Connected to a Battery ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T004.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T004.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH12S03",
+                "SessionName": "Torch Bulb ",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S03TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teacherpptx/G6-P12-S1.pptx",
+                      "TeachingMaterialName": "Session3 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S03TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teachersolution/ch12-session-3-torch-bulb.pdf",
+                      "TeachingMaterialName": "Session3 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06SC01CH12S04M02",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S04M06",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06SC01CH12S04M03",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S04M07",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06SC01CH12S04M04",
+                      "MaterialName": "Chapter 12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S04M08",
+                      "MaterialName": "Chapter 12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06SC01CH12S04M01",
+                      "MaterialName": "T5: Electric Circuit ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T005.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T005.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S04M05",
+                      "MaterialName": "T6: What is Closed Circuit and Open Circuit",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T006.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T006.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH12S04",
+                "SessionName": "An Electric Circuit ",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S04TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teacherpptx/G6-P12-S1.pptx",
+                      "TeachingMaterialName": "Session4 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S04TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teachersolution/ch12-session-4-an-electric-circuit.pdf",
+                      "TeachingMaterialName": "Session4 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06SC01CH12S05M03",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06SC01CH12S05M04",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06SC01CH12S05M05",
+                      "MaterialName": "Chapter12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06SC01CH12S05M01",
+                      "MaterialName": "T7: Electric Switch ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T007.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T007.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR06SC01CH12S05M02",
+                      "MaterialName": "T8: Torch ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T008.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T008.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH12S05",
+                "SessionName": "Electric Switch ",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S05TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teacherpptx/G6-P12-S1.pptx",
+                      "TeachingMaterialName": "Session5 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S05TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teachersolution/ch12-session-5-electric-switch.pdf",
+                      "TeachingMaterialName": "Session5 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06SC01CH12S06M02",
+                      "MaterialName": "Chapter12 Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/mindmap/science-ch12-electricity-circuits-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06SC01CH12S06M03",
+                      "MaterialName": "Chapter12 Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/notes/science-ch12-electricty-circuits-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06SC01CH12S06M04",
+                      "MaterialName": "Chapter12 Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/science/othervideos/ch12-electric-circuits.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06SC01CH12S06M01",
+                      "MaterialName": "T9: Conductors ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T009.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/science/12.electricity-and-circuits/G6P3T009.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH12S06",
+                "SessionName": "Electric Conductors and Insulator",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S06TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teacherpptx/G6-P12-S1.pptx",
+                      "TeachingMaterialName": "Session6 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06SC01CH12S06TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/science/teachersolution/ch12-session-6-electric-conductors-and-insulators.pdf",
+                      "TeachingMaterialName": "Session6 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "SubjectId": "GR06SC01",
+        "SubjectName": "Science"
+      },
+      {
+        "Chapters": [
+          {
+            "ChapterID": "GR06MA01CH11",
+            "ChapterName": "Algebra",
+            "ChapterSequence": 11,
+            "Session": [
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S01M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S01M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S01M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S01M01",
+                      "MaterialName": "T1: Introduction to Algebra",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T001.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T001.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S01",
+                "SessionName": "Introduction to Algebra",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-1-algebra.pptx",
+                      "TeachingMaterialName": "Session1 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S01TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session-1-introduction-to-algebra.pdf",
+                      "TeachingMaterialName": "Session1 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S02M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S02M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S02M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S02M01",
+                      "MaterialName": "T2: More Matchstick Patterns ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T002.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T002.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S02",
+                "SessionName": "More Matchstick Patterns ",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-2-algebra.pptx",
+                      "TeachingMaterialName": "Session 2 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S02TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session-2-more-matchstick-patterns.pdf",
+                      "TeachingMaterialName": "Session2 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S03M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S03M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S03M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S03M01",
+                      "MaterialName": "T3: Examples of Variables-I",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T003.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T003.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S03",
+                "SessionName": "Examples of Variables-I",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-3-algebra.pptx",
+                      "TeachingMaterialName": "Session3 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S03TE01M03",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session–3-examples-of-variables–I.pdf",
+                      "TeachingMaterialName": "Session3 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S04M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S04M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S04M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S04M01",
+                      "MaterialName": "T4: Examples of Variables-II",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T004.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T004.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S04",
+                "SessionName": "Examples of Variables-II",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-4-algebra.pptx",
+                      "TeachingMaterialName": "Session4 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S04TE01M04",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session–4-examples-of-variables–II.pdf",
+                      "TeachingMaterialName": "Session4 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S05M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    },
+                    {
+                      "MaterialId": "GR06MA01CH11S05M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S05M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    },
+                    {
+                      "MaterialId": "GR06MA01CH11S05M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S05M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR06MA01CH11S05M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S05M01",
+                      "MaterialName": "T5: Rules from Geometry   ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T005.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T005.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR06MA01CH11S05M01",
+                      "MaterialName": "T6: Rules from Arithmetic   ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T006.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T006.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S05",
+                "SessionName": "Use of Variables in Common Rules",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-5-algebra.pptx",
+                      "TeachingMaterialName": "Session5 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S05TE01M05",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session–5-use-of-variables-in-common-rules.pdf",
+                      "TeachingMaterialName": "Session5 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S06M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S06M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S06M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S06M01",
+                      "MaterialName": "T7: Algebraic Expressions",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T007.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T007.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S06",
+                "SessionName": "Algebraic Expressions",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-6-algebra.pptx",
+                      "TeachingMaterialName": "Session5 PPTX1",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S05TE01M06",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session–6-algebraic-expression.pdf",
+                      "TeachingMaterialName": "Session5 Solution1",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S07M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S07M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S07M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S07M01",
+                      "MaterialName": "T8: Practical Use of Algebraic Expressions",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T008.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T008.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S07",
+                "SessionName": "Practical Use of Algebraic Expressions",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-7-algebra.pptx",
+                      "TeachingMaterialName": "Session6 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S06TE01M07",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session–7-practice-use-of-algebraic-expression.pdf",
+                      "TeachingMaterialName": "Session6 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S08M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S08M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S08M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S08M01",
+                      "MaterialName": "T9: Equations",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T009.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T009.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S08",
+                "SessionName": " Equations",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-8-algebra.pptx",
+                      "TeachingMaterialName": "Session7 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S07TE01M08",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session–8-equations.pdf",
+                      "TeachingMaterialName": "Session7 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR06MA01CH11S09M02",
+                      "MaterialName": "algebra mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/mindmap/algebra-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR06MA01CH11S09M03",
+                      "MaterialName": "algebra notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/notes/algebra-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR06MA01CH11S09M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade06/maths/othervideos/11.algebra.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR06MA01CH11S09M01",
+                      "MaterialName": "T10: Solution of an Equation",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T010.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-6/maths/11.algebra/G6M11T010.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR06MA01CH11S09",
+                "SessionName": "Solution of an Equation",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teacherpptx/chap-11-s-9-algebra.pptx",
+                      "TeachingMaterialName": "Session8 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR06MA01CH11S08TE01M09",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade06/maths/teachersolution/session–9-solution-of-an-equation.pdf",
+                      "TeachingMaterialName": "Session8 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "SubjectId": "GR06MA01",
+        "SubjectName": "Maths"
+      }
+    ],
+    "Type": "COURSE_Type_3"
+  },
+  "grade7": {
+    "course_id": "GR07001",
+    "Course_Name": "Grade07",
+    "Subjects": [
+      {
+        "Chapters": [
+          {
+            "ChapterID": "GR07SC01CH09",
+            "ChapterName": "Respiration in Organisms",
+            "ChapterSequence": 9,
+            "Session": [
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH09S01M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-ch9-respiration-in-organism-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH09S01M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-ch9-respiration-in-organism-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH09S01M04",
+                      "MaterialName": "Chapter Video1",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09respiration-in-organisms1.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH09S01M05",
+                      "MaterialName": "Chapter Video2",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09types-of-respiration2.mp4",
+                      "MaterialSequence": 5,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/studymaterials/grade07/science/othervideos/ch09types-of-respiration2.png",
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH09S01M01",
+                      "MaterialName": "T1 Why Do We Respire?",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T001.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T001.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH09S01M06",
+                      "MaterialName": "T2 Aerobic & Anaerobic respiration",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T002.mp4",
+                      "MaterialSequence": 6,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T002.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH09S01",
+                "SessionName": "Session1 - Why Do We Respire?",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S01TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-ch9-respiration-in-organisms-s1.pptx",
+                      "TeachingMaterialName": "Session 1 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S01TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch09-respiration-in-organisms-s01.pdf",
+                      "TeachingMaterialName": "Session1 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH09S02M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-ch9-respiration-in-organism-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH09S02M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-ch9-respiration-in-organism-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH09S02M04",
+                      "MaterialName": "Chapter Video1",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09respiration-in-organisms1.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH09S02M05",
+                      "MaterialName": "Chapter Video2",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09types-of-respiration2.mp4",
+                      "MaterialSequence": 5,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH09S02M01",
+                      "MaterialName": "T3 Breathing",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T003.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T003.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH09S02",
+                "SessionName": "Session2 - Breathing",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S02TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-ch9-respiration-in-organisms-s2.pptx",
+                      "TeachingMaterialName": "Session2 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S02TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch09-respiration-in-organisms-s02.pdf",
+                      "TeachingMaterialName": "Session2 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH09S03M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-ch9-respiration-in-organism-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH09S03M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-ch9-respiration-in-organism-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH09S03M04",
+                      "MaterialName": "Chapter Video1",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09respiration-in-organisms1.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH09S03M05",
+                      "MaterialName": "Chapter Video2",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09types-of-respiration2.mp4",
+                      "MaterialSequence": 5,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH09S03M01",
+                      "MaterialName": "T4 How do People Breathe?  What Do We Breathe Out?",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T004.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T004.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH09S03",
+                "SessionName": "Session3 - How Do People Breathe?",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S03TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-ch9-respiration-in-organisms-s3.pptx",
+                      "TeachingMaterialName": "Session3 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S03TE01M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch09-respiration-in-organisms-s03.pdf",
+                      "TeachingMaterialName": "Session3 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH09S04M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-ch9-respiration-in-organism-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH09S04M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-ch9-respiration-in-organism-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH09S04M04",
+                      "MaterialName": "Chapter Video1",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09respiration-in-organisms1.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH09S04M05",
+                      "MaterialName": "Chapter Video2",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch09types-of-respiration2.mp4",
+                      "MaterialSequence": 5,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH09S04M01",
+                      "MaterialName": "T5 Cockroach, Earthworm, Frog",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T005.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T005.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH09S04M06",
+                      "MaterialName": "T6 Breathing Underwater, Respiration in Plants",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T006.mp4",
+                      "MaterialSequence": 6,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/10.respiration-in-organisms/G7B5T006.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH09S04",
+                "SessionName": "Session4 - Breathing in Other Animals",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S04TE02M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-ch9-respiration-in-organisms-s4.pptx",
+                      "TeachingMaterialName": "Session4 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH09S04TE02M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch09-respiration-in-organisms-s04.pdf",
+                      "TeachingMaterialName": "Session4 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "ChapterID": "GR07SC01CH03",
+            "ChapterName": "Physical and Chemical Changes",
+            "ChapterSequence": 3,
+            "Session": [
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH03S01M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-physical-and-chemcial-changes-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH03S01M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-physical-and-chemcial-changes-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH03S01M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch03physicalchanges.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH03S01M01",
+                      "MaterialName": "T1: Physical Changes and its characteristics",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T001.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T001.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH03S01",
+                "SessionName": "Session1 - Understanding Physical Changes",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S01TE02M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-c3-s1.pptx",
+                      "TeachingMaterialName": "Session1 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S01TE02M01",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch03-physical-and-chemical-changes-s01.pdf",
+                      "TeachingMaterialName": "Session1 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH03S02M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-physical-and-chemcial-changes-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH03S02M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-physical-and-chemcial-changes-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH03S02M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch03physicalchanges.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH03S02M01",
+                      "MaterialName": "T2: Conversion of State - Melting and freezing of water\r\n",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T002.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T002.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH03S02M01",
+                      "MaterialName": "T3: Evaporation and condensation\r\n",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T003.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T003.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH03S02M01",
+                      "MaterialName": "T4: Heating of hacksaw blade",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T004.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T004.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH03S02",
+                "SessionName": "Session2 - Studying the Characteristics of Physical Changes with Examples",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S02TE02M03",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-c3-s2.pptx",
+                      "TeachingMaterialName": "Session2 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S02TE02M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch03-physical-and-chemical-changes-s02.pdf",
+                      "TeachingMaterialName": "Session2 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH03S03M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-physical-and-chemcial-changes-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH03S03M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-physical-and-chemcial-changes-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH03S03M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch03physicalchanges.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH03S03M01",
+                      "MaterialName": "T5: Chemical changes and its Characteristics",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T005.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T005.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH03S03M01",
+                      "MaterialName": "T6: Burning of magnesium ribbon- Activity",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T006.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T006.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH03S03",
+                "SessionName": "Session3 - Chemical changes ",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S03TE02M05",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-c3-s3.pptx",
+                      "TeachingMaterialName": "Session3 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S03TE02M04",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch03-physical-and-chemical-changes-s03.pdf",
+                      "TeachingMaterialName": "Session3 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH03S04M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-physical-and-chemcial-changes-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH03S04M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-physical-and-chemcial-changes-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH03S04M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch03physicalchanges.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH03S04M01",
+                      "MaterialName": "T7: Reaction of copper sulphate solution with iron",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T007.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T007.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH03S04M01",
+                      "MaterialName": "T8: Reaction of baking soda with vinegar",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T008.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T008.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH03S04",
+                "SessionName": "Session4 - Understanding Chemical Changes with Examples",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S04TE02M07",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-c3-s4.pptx",
+                      "TeachingMaterialName": "Session4 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S04TE02M06",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch03-physical-and-chemical-changes-s04.pdf",
+                      "TeachingMaterialName": "Session4 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH03S05M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-physical-and-chemcial-changes-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH03S05M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-physical-and-chemcial-changes-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH03S05M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch03physicalchanges.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH03S05M01",
+                      "MaterialName": "T9: Importance of Chemical Changes Difference between physical & chemical changes Ozone layer",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T009.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T009.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH03S05M06",
+                      "MaterialName": "T10: Rusting ",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T010.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T010.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH03S05",
+                "SessionName": "Session5 - Importance of Chemical Changes and Rusting of Iron",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S05TE02M09",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-c3-s5.pptx",
+                      "TeachingMaterialName": "Session5 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S05TE02M08",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch03-physical-and-chemical-changes-s05.pdf",
+                      "TeachingMaterialName": "Session5 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07SC01CH03S06M02",
+                      "MaterialName": "Respiration in Organisms Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/mindmap/umr-g7-physical-and-chemcial-changes-mindmap.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07SC01CH03S06M03",
+                      "MaterialName": "Respiration in Organisms Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/notes/umr-g7-physical-and-chemcial-changes-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07SC01CH03S06M04",
+                      "MaterialName": "Chapter Video",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/science/othervideos/ch03physicalchanges.mp4",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07SC01CH03S06M01",
+                      "MaterialName": "T11: Conditions Necessary for Rusting",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T011.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T011.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH03S06M05",
+                      "MaterialName": "T12: Effect of rusting",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T012.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T012.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07SC01CH03S06M09",
+                      "MaterialName": "T13: Crystallisation",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T013.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/science/6.physical-and-chemical-changes/G7C3T013.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07SC01CH03S06",
+                "SessionName": "Session6 - Conditions Necessary for Rusting & Crystallisation",
+                "TeachingMaterial": {
+                  "PPTX": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S06TE02M011",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teacherpptx/umr-g7-c3-s6.pptx",
+                      "TeachingMaterialName": "Session6 PPTX",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pptx"
+                    }
+                  ],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07SC01CH03S06TE02M010",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/science/teachersolution/ch03-physical-and-chemical-changes-s06.pdf",
+                      "TeachingMaterialName": "Session6 Solution",
+                      "TeachingMaterialSequence": 1,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "SubjectId": "GR07SC01",
+        "SubjectName": "Science"
+      },
+      {
+        "Chapters": [
+          {
+            "ChapterID": "GR07MA01CH07",
+            "ChapterName": "Congruence of Triangles",
+            "ChapterSequence": 7,
+            "Session": [
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07MA01CH07S01M02",
+                      "MaterialName": "Congruence Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/mindmap/ch-7-congrence-of-triangle-map.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07MA01CH07S01M03",
+                      "MaterialName": "Congruence Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/notes/ch-7-congrence-of-triangle-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07MA01CH07S01M04",
+                      "MaterialName": "Congruence Chapter Video",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07MA01CH07S01M01",
+                      "MaterialName": "Congruence",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T001.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T001.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07MA01CH07S01",
+                "SessionName": "Session 1 - Congruence",
+                "TeachingMaterial": {
+                  "PPTX": [],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07MA01CH07S01TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/maths/teachersolution/ch07-congruence-of-triangles-s01.pdf",
+                      "TeachingMaterialName": "Session1 PDF",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07MA01CH07S02M02",
+                      "MaterialName": "Congruence Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/mindmap/ch-7-congrence-of-triangle-map.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07MA01CH07S02M03",
+                      "MaterialName": "Congruence Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/notes/ch-7-congrence-of-triangle-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07MA01CH07S02M04",
+                      "MaterialName": "Congruence Chapter Video",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07MA01CH07S02M01",
+                      "MaterialName": "Congruence of Triangles",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T002.mp4",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T002.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07MA01CH07S02",
+                "SessionName": "Session 2 - Congruence of Triangles",
+                "TeachingMaterial": {
+                  "PPTX": [],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07MA01CH07S02TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/maths/teachersolution/ch07-congruence-of-triangles-s02.pdf",
+                      "TeachingMaterialName": "Session2 PDF",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07MA01CH07S03M04",
+                      "MaterialName": "Congruence Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/mindmap/ch-7-congrence-of-triangle-map.pdf",
+                      "MaterialSequence": 5,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07MA01CH07S03M05",
+                      "MaterialName": "Congruence Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/notes/ch-7-congrence-of-triangle-notes.pdf",
+                      "MaterialSequence": 6,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07MA01CH07S03M06",
+                      "MaterialName": "Congruence Chapter Video",
+                      "MaterialSequence": 7,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07MA01CH07S03M01",
+                      "MaterialName": "Criterias for Congruence of Triangles-I",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T003.mp4\r\n",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T003.png",
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07MA01CH07S03M02",
+                      "MaterialName": "NCERT Example 2",
+                      "MaterialSequence": 2,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07MA01CH07S03M03",
+                      "MaterialName": "NCERT Example 3",
+                      "MaterialSequence": 3,
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07MA01CH07S03",
+                "SessionName": "Session 3 - Criterias for Congruence of Triangles-I",
+                "TeachingMaterial": {
+                  "PPTX": [],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07MA01CH07S03TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/maths/teachersolution/ch07-congruence-of-triangles-s03.pdf",
+                      "TeachingMaterialName": "Session3 PDF",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07MA01CH07S04M05",
+                      "MaterialName": "Congruence Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/mindmap/ch-7-congrence-of-triangle-map.pdf",
+                      "MaterialSequence": 5,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07MA01CH07S04M06",
+                      "MaterialName": "Congruence Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/notes/ch-7-congrence-of-triangle-notes.pdf",
+                      "MaterialSequence": 6,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07MA01CH07S04M07",
+                      "MaterialName": "Congruence Chapter Video",
+                      "MaterialSequence": 7,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07MA01CH07S04M01",
+                      "MaterialName": "NCERT Example 4",
+                      "MaterialSequence": 1,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07MA01CH07S04M02",
+                      "MaterialName": "NCERT Example 5",
+                      "MaterialSequence": 2,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07MA01CH07S04M03",
+                      "MaterialName": "NCERT Example 6",
+                      "MaterialSequence": 3,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07MA01CH07S04M04",
+                      "MaterialName": "NCERT Example 7",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07MA01CH07S04",
+                "SessionName": "Session 4 - Criterias for Congruence of Triangles-II",
+                "TeachingMaterial": {
+                  "PPTX": [],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07MA01CH07S04TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/maths/teachersolution/ch07-congruence-of-triangles-s04.pdf",
+                      "TeachingMaterialName": "Session4 PDF",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07MA01CH07S05M02",
+                      "MaterialName": "Congruence Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/mindmap/ch-7-congrence-of-triangle-map.pdf",
+                      "MaterialSequence": 2,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07MA01CH07S05M03",
+                      "MaterialName": "Congruence Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/notes/ch-7-congrence-of-triangle-notes.pdf",
+                      "MaterialSequence": 3,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07MA01CH07S05M04",
+                      "MaterialName": "Congruence Chapter Video",
+                      "MaterialSequence": 4,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07MA01CH07S05M01",
+                      "MaterialName": "Congruence Among Right-angled Triangles",
+                      "MaterialPath": "https://static.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T004.mp4\r\n",
+                      "MaterialSequence": 1,
+                      "MaterialThumbnail": "https://thumbnail.upmyranks.com/foundation/grade-7/maths/7.congruence-of-triangles/G7M7T004.png",
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07MA01CH07S05",
+                "SessionName": "Session 5 - Congruence Among Right-angled Triangles-I",
+                "TeachingMaterial": {
+                  "PPTX": [],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07MA01CH07S05TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/maths/teachersolution/ch07-congruence-of-triangles-s05.pdf",
+                      "TeachingMaterialName": "Session5 PDF",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              },
+              {
+                "Material": {
+                  "MindMap": [
+                    {
+                      "MaterialId": "GR07MA01CH07S06M04",
+                      "MaterialName": "Congruence Mindmap",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/mindmap/ch-7-congrence-of-triangle-map.pdf",
+                      "MaterialSequence": 4,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "Notes": [
+                    {
+                      "MaterialId": "GR07MA01CH07S06M05",
+                      "MaterialName": "Congruence Notes",
+                      "MaterialPath": "https://static.upmyranks.com/studymaterials/grade07/maths/notes/ch-7-congrence-of-triangle-notes.pdf",
+                      "MaterialSequence": 5,
+                      "MaterialType": "pdf"
+                    }
+                  ],
+                  "OthersVideos": [
+                    {
+                      "MaterialId": "GR07MA01CH07S06M06",
+                      "MaterialName": "Congruence Chapter Video",
+                      "MaterialSequence": 6,
+                      "MaterialType": "video"
+                    }
+                  ],
+                  "Video": [
+                    {
+                      "MaterialId": "GR07MA01CH07S06M01",
+                      "MaterialName": "NCERT Ex.7.2 Q1",
+                      "MaterialSequence": 1,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07MA01CH07S06M02",
+                      "MaterialName": "NCERT Ex.7.2 Q6",
+                      "MaterialSequence": 2,
+                      "MaterialType": "video"
+                    },
+                    {
+                      "MaterialId": "GR07MA01CH07S06M03",
+                      "MaterialName": "NCERT Ex.7.2 Q7",
+                      "MaterialSequence": 3,
+                      "MaterialType": "video"
+                    }
+                  ]
+                },
+                "SessionId": "GR07MA01CH07S06",
+                "SessionName": "Session 6 - Congruence Among Right-angled Triangles-II",
+                "TeachingMaterial": {
+                  "PPTX": [],
+                  "Solution": [
+                    {
+                      "TeachingMaterialID": "GR07MA01CH07S06TE01M02",
+                      "TeachingMaterialLink": "https://static.upmyranks.com/studymaterials/grade07/maths/teachersolution/ch07-congruence-of-triangles-s06.pdf",
+                      "TeachingMaterialName": "Session6 PDF",
+                      "TeachingMaterialSequence": 2,
+                      "TeachingMaterialType": "pdf"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "SubjectId": "GR07MA01",
+        "SubjectName": "Maths"
+      }
+    ],
+    "Type": "COURSE_Type_3"
+  }
+}

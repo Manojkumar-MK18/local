@@ -31,11 +31,11 @@ export const LearnWrapper = styled.div`
 
 export const StudentWrapper = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   padding: 20px 0 20px 0;
   margin: 20px 20px 0;
   border-radius: 5px;
-  background: linear-gradient(0.5deg, #e7e4e7 0.4%, white 99.54%);
+  /* background: linear-gradient(0.5deg, #e7e4e7 0.4%, white 99.54%); */
 `
 
 export const LeranModule = styled.div`

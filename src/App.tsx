@@ -119,8 +119,8 @@ const App = () => {
           }, 500)
         }}
       >
-        <Router history={history}> 
-          {isLoggedIn && <SideNavigation menus={determineMenu('SUPERADMIN')} />}
+        <Router history={history}>
+          {isLoggedIn && <SideNavigation menus={determineMenu('TEACHER')} />}
           <Routes />
         </Router>
       </Body>

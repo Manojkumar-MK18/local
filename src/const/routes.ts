@@ -86,7 +86,9 @@ const ROUTES = {
   FINAL_CREATE_TEST: '/testCreation',
   QRCODE_SETTINGS: '/qrcodeSettings',
   LEARN_MODULE_SETTINGS: '/learnModuleSetting',
-  LEARN_SETTINGS: '/settings'
+  LEARN_SETTINGS: '/settings',
+
+  LOCALLEARN: '/localLearn'
 }
 
 export default ROUTES

@@ -1,4 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit'
+import axios from 'axios'
 import apiEndpoints from '../../const/apiendpoints'
 import history from '../../const/history'
 import ROUTES from '../../const/routes'
@@ -82,5 +83,13 @@ export const getGradeClassSubjectsList = createAsyncThunk(
       requestPayload
     )
     return response?.data.response
+  }
+)
+
+export const getLocalSubjectsListGrade6 = createAsyncThunk(
+  'subjects/getSubjects',
+  async (endPoint: any): Promise<any> => {
+    const response = await axios.get(`http://localhost:5000/${endPoint}`)
+    return response.data
   }
 )

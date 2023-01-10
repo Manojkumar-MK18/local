@@ -156,4 +156,5 @@ export interface InitialState {
   selectedSessionId: any
   getGradeLabSubjectLists: GetSubjectResponse
   getGradeClassSubjectLists: getGradeClassResponse
+  getLoaclSubjectLists: Array<any>
 }

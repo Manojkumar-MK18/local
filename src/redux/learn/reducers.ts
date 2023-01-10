@@ -5,7 +5,8 @@ import {
   getMaterialList,
   getSubjectsList,
   getTopicsList,
-  getGradeLabSubjectsList
+  getGradeLabSubjectsList,
+  getLocalSubjectsListGrade6
 } from './api'
 import {
   GetChapterListResponse,
@@ -60,7 +61,8 @@ const initialState: InitialState = {
   selectedSubjectId: '',
   selectedChapterId: '',
   selectedSessionName: '',
-  selectedSessionId: ''
+  selectedSessionId: '',
+  getLoaclSubjectLists: []
 }
 
 export const learnSlice = createSlice({
@@ -172,6 +174,20 @@ export const learnSlice = createSlice({
       state.getGradeClassSubjectLists = action.payload
     },
     [getGradeClassSubjectsList.rejected.toString()]: (state) => {
+      state.isLoading = false
+    },
+
+    [getLocalSubjectsListGrade6.pending.toString()]: (state) => {
+      state.isLoading = true
+    },
+    [getLocalSubjectsListGrade6.fulfilled.toString()]: (
+      state,
+      action: PayloadAction<Array<any>>
+    ) => {
+      state.isLoading = false
+      state.getLoaclSubjectLists = action.payload
+    },
+    [getLocalSubjectsListGrade6.rejected.toString()]: (state) => {
       state.isLoading = false
     }
   }
