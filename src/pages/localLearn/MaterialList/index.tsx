@@ -10,7 +10,10 @@ import {
 } from '../../../components'
 import ROUTES from '../../../const/routes'
 import { getSubjectLogo } from '../../../helpers'
-import { updateSessionName } from '../../../redux/learn/actions'
+import {
+  UpdateSessionId,
+  updateSessionName
+} from '../../../redux/learn/actions'
 import { RootState } from '../../../redux/store'
 import {
   CardSubtitle,
@@ -38,6 +41,12 @@ const LocalMaterial = () => {
   const [filterData] = getLoaclSubjectLists?.Subjects?.map((list: any) =>
     list?.Chapters?.filter((d: any) => d?.ChapterID === selectedChapterId)
   )
+  console.log(
+    getLoaclSubjectLists?.Subjects?.map((list: any) =>
+      list?.Chapters?.filter((d: any) => d?.ChapterID)
+    )
+  )
+  console.log(selectedChapterId)
 
   return (
     <PageWrapper>
@@ -72,6 +81,7 @@ const LocalMaterial = () => {
                   onClick={() => {
                     history.push(ROUTES.LOCAL_TOPIC_LIST)
                     dispatch(updateSessionName(item.SessionName))
+                    dispatch(UpdateSessionId(item.SessionId))
                   }}
                 >
                   <ChapterNumber>{index + 1}</ChapterNumber>
@@ -119,7 +129,14 @@ const LocalMaterial = () => {
           <TAB eventKey="tmaterial" title="TeachingMaterial">
             <>
               {filterData[0]?.Session?.map((item: any, index: any) => (
-                <ChapterWrapper key={index} onClick={() => {}}>
+                <ChapterWrapper
+                  key={index}
+                  onClick={() => {
+                    history.push(ROUTES.LOCAL_TEACHING_TOPIC_LIST)
+                    dispatch(updateSessionName(item.SessionName))
+                    dispatch(UpdateSessionId(item.SessionId))
+                  }}
+                >
                   <ChapterNumber>{index + 1}</ChapterNumber>
                   <CardTitle fontSize="18px">{item.SessionName}</CardTitle>
                   <SubtitleWrapper>

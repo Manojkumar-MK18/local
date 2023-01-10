@@ -25,7 +25,7 @@ import {
 import { ChapterWrapper } from '../../student/Learn/subcomponent'
 import pdfIcon from '../../../assets/pdf-icon.png'
 
-const LocalTopicList = () => {
+const LocalTeachingTopicList = () => {
   const {
     selectedChapterId,
     getLoaclSubjectLists,
@@ -76,13 +76,13 @@ const LocalTopicList = () => {
           id="uncontrolled-tab-example"
           className="mb-3"
         >
-          <TAB eventKey="mindmap" title="MindMap">
+          <TAB eventKey="mindmap" title="PPTX">
             <MaterialWrapper>
               {finalFilter?.map((li: any, i: any) =>
-                li.Material?.MindMap?.map((pdf: any, i: any) => (
+                li.TeachingMaterial?.PPTX?.map((pdf: any, i: any) => (
                   <IconChapterButton
                     key={i}
-                    title={pdf?.MaterialName}
+                    title={pdf?.TeachingMaterialName}
                     src={pdfIcon}
                     onSubmit={() => {}}
                   />
@@ -90,46 +90,14 @@ const LocalTopicList = () => {
               )}
             </MaterialWrapper>
           </TAB>
-          <TAB eventKey="notes" title="Notes">
+          <TAB eventKey="notes" title="Solutions">
             <MaterialWrapper>
               {finalFilter?.map((li: any) =>
-                li.Material?.Notes?.map((pdf: any, i: any) => (
+                li.TeachingMaterial?.Solution?.map((pdf: any, i: any) => (
                   <IconChapterButton
                     key={i}
-                    title={pdf?.MaterialName}
+                    title={pdf?.TeachingMaterialName}
                     src={pdfIcon}
-                    onSubmit={() => {}}
-                  />
-                ))
-              )}
-            </MaterialWrapper>
-          </TAB>
-          <TAB eventKey="othersVideos" title="OthersVideos">
-            <MaterialWrapper>
-              {finalFilter?.map((li: any) =>
-                li.Material?.OthersVideos?.map((pdf: any, i: any) => (
-                  <IconChapterButton
-                    key={i}
-                    title={pdf?.MaterialName}
-                    src={
-                      'https://thumbnail.upmyranks.com/entrance-topics/physics-11/1.mathematical-physics/TP0001.png'
-                    }
-                    onSubmit={() => {}}
-                  />
-                ))
-              )}
-            </MaterialWrapper>
-          </TAB>
-          <TAB eventKey="video" title="Video">
-            <MaterialWrapper>
-              {finalFilter?.map((li: any) =>
-                li.Material?.Video?.map((pdf: any, i: any) => (
-                  <IconChapterButton
-                    key={i}
-                    title={pdf?.MaterialName}
-                    src={
-                      'https://thumbnail.upmyranks.com/entrance-topics/physics-11/1.mathematical-physics/TP0001.png'
-                    }
                     onSubmit={() => {}}
                   />
                 ))
@@ -142,4 +110,4 @@ const LocalTopicList = () => {
   )
 }
 
-export default LocalTopicList
+export default LocalTeachingTopicList
