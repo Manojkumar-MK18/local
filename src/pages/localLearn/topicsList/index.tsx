@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import { shallowEqual, useSelector } from 'react-redux'
+import React, { useState } from 'react'
+import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import {
   PageWrapper,
   FlexWrapper,
@@ -24,6 +24,11 @@ import {
 } from '../../student/Learn/Materials/subcomponent'
 import { ChapterWrapper } from '../../student/Learn/subcomponent'
 import pdfIcon from '../../../assets/pdf-icon.png'
+import { Modal } from 'react-bootstrap'
+import { PdfFrame } from '../../teacher/Assignment/subcomponents'
+import { updateSelectedMaterial } from '../../../redux/learn/actions'
+import ROUTES from '../../../const/routes'
+import { useHistory } from 'react-router-dom'
 
 const LocalTopicList = () => {
   const {
@@ -40,6 +45,7 @@ const LocalTopicList = () => {
     }),
     shallowEqual
   )
+  const [showPdf1, setShowPdf1] = useState('')
 
   const [filterData] = getLoaclSubjectLists?.Subjects?.map((list: any) =>
     list?.Chapters?.map((d: any) =>
@@ -48,7 +54,8 @@ const LocalTopicList = () => {
   )
 
   const [finalFilter] = filterData?.filter((dd: any) => dd.length)
-
+  const dispatch = useDispatch()
+  const history = useHistory()
   console.log(finalFilter)
   console.log(selectedSessionId)
   return (
@@ -84,7 +91,9 @@ const LocalTopicList = () => {
                     key={i}
                     title={pdf?.MaterialName}
                     src={pdfIcon}
-                    onSubmit={() => {}}
+                    onSubmit={() => {
+                      setShowPdf1(pdf?.MaterialPath)
+                    }}
                   />
                 ))
               )}
@@ -98,7 +107,9 @@ const LocalTopicList = () => {
                     key={i}
                     title={pdf?.MaterialName}
                     src={pdfIcon}
-                    onSubmit={() => {}}
+                    onSubmit={() => {
+                      setShowPdf1(pdf?.MaterialPath)
+                    }}
                   />
                 ))
               )}
@@ -114,7 +125,17 @@ const LocalTopicList = () => {
                     src={
                       'https://thumbnail.upmyranks.com/entrance-topics/physics-11/1.mathematical-physics/TP0001.png'
                     }
-                    onSubmit={() => {}}
+                    onSubmit={() => {
+                      dispatch(
+                        updateSelectedMaterial({
+                          MaterialId: '',
+                          MaterialName: pdf?.MaterialName,
+                          MaterialPath: pdf?.MaterialPath,
+                          topicName: selectedSessionName
+                        })
+                      )
+                      history.push(ROUTES.LOCAL_VIDEO)
+                    }}
                   />
                 ))
               )}
@@ -130,7 +151,18 @@ const LocalTopicList = () => {
                     src={
                       'https://thumbnail.upmyranks.com/entrance-topics/physics-11/1.mathematical-physics/TP0001.png'
                     }
-                    onSubmit={() => {}}
+                    onSubmit={() => {
+                      dispatch(
+                        updateSelectedMaterial({
+                          MaterialId: '',
+                          MaterialName: pdf?.MaterialName,
+                          MaterialPath: pdf?.MaterialPath,
+
+                          topicName: selectedSessionName
+                        })
+                      )
+                      history.push(ROUTES.LOCAL_VIDEO)
+                    }}
                   />
                 ))
               )}
@@ -138,6 +170,27 @@ const LocalTopicList = () => {
           </TAB>
         </TABS>
       </ContainerWrapper>
+      <Modal
+        show={showPdf1 !== '' ? true : false}
+        onHide={() => {
+          setShowPdf1('')
+        }}
+        centered
+        size="xl"
+        backdrop="static"
+      >
+        <Modal.Header closeButton>Pdf Viewer</Modal.Header>
+        <PdfFrame
+          id="fraDisabled"
+          src={`${showPdf1}#toolbar=0`}
+          width="100%;"
+          height="80%"
+          allowFullScreen={true}
+          loading="lazy"
+          role={'dialog'}
+          onContextMenu={() => alert('ff')}
+        />
+      </Modal>
     </PageWrapper>
   )
 }

@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useState } from 'react'
 import { shallowEqual, useSelector } from 'react-redux'
 import {
   PageWrapper,
@@ -24,6 +24,8 @@ import {
 } from '../../student/Learn/Materials/subcomponent'
 import { ChapterWrapper } from '../../student/Learn/subcomponent'
 import pdfIcon from '../../../assets/pdf-icon.png'
+import { Modal } from 'react-bootstrap'
+import { PdfFrame } from '../../teacher/Assignment/subcomponents'
 
 const LocalTeachingTopicList = () => {
   const {
@@ -48,6 +50,7 @@ const LocalTeachingTopicList = () => {
   )
 
   const [finalFilter] = filterData?.filter((dd: any) => dd.length)
+  const [showPdf1, setShowPdf1] = useState('')
 
   console.log(finalFilter)
   console.log(selectedSessionId)
@@ -84,7 +87,9 @@ const LocalTeachingTopicList = () => {
                     key={i}
                     title={pdf?.TeachingMaterialName}
                     src={pdfIcon}
-                    onSubmit={() => {}}
+                    onSubmit={() => {
+                      setShowPdf1(pdf?.TeachingMaterialLink)
+                    }}
                   />
                 ))
               )}
@@ -98,7 +103,9 @@ const LocalTeachingTopicList = () => {
                     key={i}
                     title={pdf?.TeachingMaterialName}
                     src={pdfIcon}
-                    onSubmit={() => {}}
+                    onSubmit={() => {
+                      setShowPdf1(pdf?.TeachingMaterialLink)
+                    }}
                   />
                 ))
               )}
@@ -106,6 +113,27 @@ const LocalTeachingTopicList = () => {
           </TAB>
         </TABS>
       </ContainerWrapper>
+      <Modal
+        show={showPdf1 !== '' ? true : false}
+        onHide={() => {
+          setShowPdf1('')
+        }}
+        centered
+        size="xl"
+        backdrop="static"
+      >
+        <Modal.Header closeButton>Pdf Viewer</Modal.Header>
+        <PdfFrame
+          id="fraDisabled"
+          src={`${showPdf1}#toolbar=0`}
+          width="100%;"
+          height="80%"
+          allowFullScreen={true}
+          loading="lazy"
+          role={'dialog'}
+          onContextMenu={() => alert('ff')}
+        />
+      </Modal>
     </PageWrapper>
   )
 }

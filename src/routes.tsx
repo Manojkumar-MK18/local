@@ -91,6 +91,7 @@ import LocalChapterList from './pages/localLearn/ChapterList'
 import LocalMaterial from './pages/localLearn/MaterialList'
 import LocalTopicList from './pages/localLearn/topicsList'
 import LocalTeachingTopicList from './pages/localLearn/topicsList/teachingMat'
+import LocalMaterialVideoPlayer from './pages/localLearn/video'
 
 const Routes = () => {
   return (
@@ -315,6 +316,10 @@ const Routes = () => {
       <ProtectedRoute
         path={ROUTES.LOCAL_TEACHING_TOPIC_LIST}
         component={LocalTeachingTopicList}
+      />
+      <ProtectedRoute
+        path={ROUTES.LOCAL_VIDEO}
+        component={LocalMaterialVideoPlayer}
       />
     </Switch>
   )
