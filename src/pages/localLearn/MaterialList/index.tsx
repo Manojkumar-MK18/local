@@ -17,6 +17,7 @@ import {
   CardTitle
 } from '../../student/Learn/Chapter/subcomponents'
 import { ChapterWrapper } from '../../student/Learn/subcomponent'
+import { TAB, TABS } from '../../teacher/Assignment/subcomponents'
 
 const LocalMaterial = () => {
   const { selectedChapterId, getLoaclSubjectLists } = useSelector(
@@ -53,51 +54,88 @@ const LocalMaterial = () => {
               />
             </DropDownWrapper> */}
         </HeaderWrapper>
+        <TABS
+          defaultActiveKey="material"
+          id="uncontrolled-tab-example"
+          className="mb-3"
+        >
+          <TAB eventKey="material" title="Material">
+            <>
+              {filterData[0]?.Session?.map((item: any, index: any) => (
+                <ChapterWrapper key={index} onClick={() => {}}>
+                  <ChapterNumber>{index + 1}</ChapterNumber>
+                  <CardTitle fontSize="18px">{item.SessionName}</CardTitle>
+                  <SubtitleWrapper>
+                    <FlexWrapper noMargin noPadding>
+                      <CardSubtitle
+                        className="mt-2 text-muted"
+                        fontSize="12px"
+                        fontWeight="500"
+                      >
+                        {item?.Material?.MindMap?.length} MindMap
+                      </CardSubtitle>
 
-        <>
-          {filterData[0]?.Session?.map((item: any, index: any) => (
-            <ChapterWrapper key={index} onClick={() => {}}>
-              <ChapterNumber>{index + 1}</ChapterNumber>
-              <CardTitle fontSize="18px">{item.SessionName}</CardTitle>
-              <SubtitleWrapper>
-                <FlexWrapper noMargin noPadding>
-                  <CardSubtitle
-                    className="mt-2 text-muted"
-                    fontSize="12px"
-                    fontWeight="500"
-                  >
-                    {item?.Material?.length} Videos
-                  </CardSubtitle>
+                      <CardSubtitle
+                        className="mt-2 text-muted"
+                        fontSize="12px"
+                        fontWeight="500"
+                        style={{ marginLeft: '2%' }}
+                      >
+                        {item?.Material?.Notes?.length} Notes
+                      </CardSubtitle>
+                      <CardSubtitle
+                        className="mt-2 text-muted"
+                        fontSize="12px"
+                        fontWeight="500"
+                        style={{ marginLeft: '2%' }}
+                      >
+                        {item?.Material?.OthersVideos?.length} OthersVideos
+                      </CardSubtitle>
+                      <CardSubtitle
+                        className="mt-2 text-muted"
+                        fontSize="12px"
+                        fontWeight="500"
+                        style={{ marginLeft: '2%' }}
+                      >
+                        {item?.Material?.Video?.length} Video
+                      </CardSubtitle>
+                    </FlexWrapper>
+                  </SubtitleWrapper>
+                </ChapterWrapper>
+              ))}
+            </>
+          </TAB>
+          <TAB eventKey="tmaterial" title="TeachingMaterial">
+            <>
+              {filterData[0]?.Session?.map((item: any, index: any) => (
+                <ChapterWrapper key={index} onClick={() => {}}>
+                  <ChapterNumber>{index + 1}</ChapterNumber>
+                  <CardTitle fontSize="18px">{item.SessionName}</CardTitle>
+                  <SubtitleWrapper>
+                    <FlexWrapper noMargin noPadding>
+                      <CardSubtitle
+                        className="mt-2 text-muted"
+                        fontSize="12px"
+                        fontWeight="500"
+                      >
+                        {item?.TeachingMaterial?.PPTX?.length} PPTX
+                      </CardSubtitle>
 
-                  <CardSubtitle
-                    className="mt-2 text-muted"
-                    fontSize="12px"
-                    fontWeight="500"
-                    style={{ marginLeft: '2%' }}
-                  >
-                    {'0'} Sessions
-                  </CardSubtitle>
-                  <CardSubtitle
-                    className="mt-2 text-muted"
-                    fontSize="12px"
-                    fontWeight="500"
-                    style={{ marginLeft: '2%' }}
-                  >
-                    {'0'} Study Materials
-                  </CardSubtitle>
-                  <CardSubtitle
-                    className="mt-2 text-muted"
-                    fontSize="12px"
-                    fontWeight="500"
-                    style={{ marginLeft: '2%' }}
-                  >
-                    {'0'} Practice Exercise
-                  </CardSubtitle>
-                </FlexWrapper>
-              </SubtitleWrapper>
-            </ChapterWrapper>
-          ))}
-        </>
+                      <CardSubtitle
+                        className="mt-2 text-muted"
+                        fontSize="12px"
+                        fontWeight="500"
+                        style={{ marginLeft: '2%' }}
+                      >
+                        {item?.TeachingMaterial?.Solution?.length}Solution
+                      </CardSubtitle>
+                    </FlexWrapper>
+                  </SubtitleWrapper>
+                </ChapterWrapper>
+              ))}
+            </>
+          </TAB>
+        </TABS>
       </ContainerWrapper>
     </PageWrapper>
   )
