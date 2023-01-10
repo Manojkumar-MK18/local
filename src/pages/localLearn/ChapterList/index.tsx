@@ -30,11 +30,10 @@ const LocalChapterList = () => {
     shallowEqual
   )
 
-  console.log(selectedSubjectId)
-
   const [filterData] = getLoaclSubjectLists?.Subjects?.filter(
     (list: any, index: any) => list?.SubjectId === selectedSubjectId
   )
+  console.log(filterData)
 
   const dispatch = useDispatch()
   const histroy = useHistory()
@@ -77,36 +76,7 @@ const LocalChapterList = () => {
                     fontSize="12px"
                     fontWeight="500"
                   >
-                    {item?.Topics?.map((dd: any) => dd?.Material.length).reduce(
-                      (sum: any, cur: any) => Number(sum) + Number(cur),
-                      0
-                    )}{' '}
-                    Videos
-                  </CardSubtitle>
-
-                  <CardSubtitle
-                    className="mt-2 text-muted"
-                    fontSize="12px"
-                    fontWeight="500"
-                    style={{ marginLeft: '2%' }}
-                  >
-                    {'0'} Sessions
-                  </CardSubtitle>
-                  <CardSubtitle
-                    className="mt-2 text-muted"
-                    fontSize="12px"
-                    fontWeight="500"
-                    style={{ marginLeft: '2%' }}
-                  >
-                    {'0'} Study Materials
-                  </CardSubtitle>
-                  <CardSubtitle
-                    className="mt-2 text-muted"
-                    fontSize="12px"
-                    fontWeight="500"
-                    style={{ marginLeft: '2%' }}
-                  >
-                    {'0'} Practice Exercise
+                    {item?.Session.length} Session
                   </CardSubtitle>
                 </FlexWrapper>
               </SubtitleWrapper>
