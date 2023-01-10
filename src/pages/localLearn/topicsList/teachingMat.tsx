@@ -27,6 +27,8 @@ import pdfIcon from '../../../assets/pdf-icon.png'
 import { Modal } from 'react-bootstrap'
 import { PdfFrame } from '../../teacher/Assignment/subcomponents'
 import DocViewer, { PDFRenderer, PNGRenderer } from 'react-doc-viewer'
+import pptxIcon from '../../../assets/pptx-icon.png'
+
 const LocalTeachingTopicList = () => {
   const {
     selectedChapterId,
@@ -88,9 +90,9 @@ const LocalTeachingTopicList = () => {
                   <IconChapterButton
                     key={i}
                     title={pdf?.TeachingMaterialName}
-                    src={pdfIcon}
+                    src={pptxIcon}
                     onSubmit={() => {
-                      setPPtx(pdf?.TeachingMaterialLink)
+                      setShowPdf1(pdf?.TeachingMaterialLink)
                     }}
                   />
                 ))
@@ -106,7 +108,7 @@ const LocalTeachingTopicList = () => {
                     title={pdf?.TeachingMaterialName}
                     src={pdfIcon}
                     onSubmit={() => {
-                      setPPtx(pdf?.TeachingMaterialLink)
+                      setShowPdf1(pdf?.TeachingMaterialLink)
                     }}
                   />
                 ))

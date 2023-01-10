@@ -24,58 +24,58 @@ const student = [
   }
 ]
 const teacherAdmin = [
+  // {
+  //   icon: ['fas', 'book'],
+  //   label: strings.teacher.dashboard.title,
+  //   to: ROUTES.TEACHER_DASHBOARD
+  // },
+  // {
+  //   icon: ['fas', 'book'],
+  //   label: strings.student.learn.title,
+  //   to: ROUTES.TEACHER_LEARN
+  // },
+  // {
+  //   icon: ['fas', 'book'],
+  //   label: strings.teacher.lessonPlane.title,
+  //   to: ''
+  // },
+  // {
+  //   icon: ['fas', 'book'],
+  //   label: strings.teacher.assignment.title,
+  //   to: '',
+  //   childs: [
+  //     {
+  //       icon: ['fas', 'book'],
+  //       label: strings.teacher.assignment.postassignment,
+  //       to: ROUTES.ASSIGNMENT
+  //     }
+  //   ]
+  // },
+  // {
+  //   icon: ['fas', 'book'],
+  //   label: strings.teacher.attendance.title,
+  //   to: '',
+  //   childs: [
+  //     {
+  //       icon: ['far', 'user'],
+  //       label: strings.student.myLeaves.apply_leave,
+  //       to: ROUTES.APPLY_LEAVE
+  //     },
+  //     {
+  //       icon: ['far', 'user'],
+  //       label: strings.student.myLeaves.leave_status,
+  //       to: ROUTES.LEAVE_STATUS
+  //     },
+  //     {
+  //       icon: ['fas', 'book'],
+  //       label: strings.teacher.attendance.studentAttenance,
+  //       to: ROUTES.TEACHER_LOGIN_STUDENT_DATESELECTOR
+  //     }
+  //   ]
+  // },
   {
     icon: ['fas', 'book'],
-    label: strings.teacher.dashboard.title,
-    to: ROUTES.TEACHER_DASHBOARD
-  },
-  {
-    icon: ['fas', 'book'],
-    label: strings.student.learn.title,
-    to: ROUTES.TEACHER_LEARN
-  },
-  {
-    icon: ['fas', 'book'],
-    label: strings.teacher.lessonPlane.title,
-    to: ''
-  },
-  {
-    icon: ['fas', 'book'],
-    label: strings.teacher.assignment.title,
-    to: '',
-    childs: [
-      {
-        icon: ['fas', 'book'],
-        label: strings.teacher.assignment.postassignment,
-        to: ROUTES.ASSIGNMENT
-      }
-    ]
-  },
-  {
-    icon: ['fas', 'book'],
-    label: strings.teacher.attendance.title,
-    to: '',
-    childs: [
-      {
-        icon: ['far', 'user'],
-        label: strings.student.myLeaves.apply_leave,
-        to: ROUTES.APPLY_LEAVE
-      },
-      {
-        icon: ['far', 'user'],
-        label: strings.student.myLeaves.leave_status,
-        to: ROUTES.LEAVE_STATUS
-      },
-      {
-        icon: ['fas', 'book'],
-        label: strings.teacher.attendance.studentAttenance,
-        to: ROUTES.TEACHER_LOGIN_STUDENT_DATESELECTOR
-      }
-    ]
-  },
-  {
-    icon: ['fas', 'book'],
-    label: 'Local Learn',
+    label: 'Learn',
     to: ROUTES.LOCALLEARN
   }
 ]
