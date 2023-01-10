@@ -47,17 +47,20 @@ const LocalTopicList = () => {
   )
   const [showPdf1, setShowPdf1] = useState('')
 
-  const [filterData] = getLoaclSubjectLists?.Subjects?.map((list: any) =>
-    list?.Chapters?.map((d: any) =>
-      d?.Session?.filter((d: any) => d?.SessionId === selectedSessionId)
-    )
+  const filterData = getLoaclSubjectLists?.Subjects?.map(
+    (list: any) =>
+      list?.Chapters?.map((d: any) =>
+        d?.Session?.filter((d: any) => d?.SessionId === selectedSessionId)
+      )[0]
   )
 
   const [finalFilter] = filterData?.filter((dd: any) => dd.length)
   const dispatch = useDispatch()
   const history = useHistory()
-  console.log(finalFilter)
+
+  console.log(filterData?.map((dd: any) => dd))
   console.log(selectedSessionId)
+
   return (
     <PageWrapper>
       <ContainerWrapper noMargin>
