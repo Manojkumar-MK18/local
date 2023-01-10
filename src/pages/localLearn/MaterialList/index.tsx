@@ -1,43 +1,38 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { shallowEqual, useDispatch, useSelector } from 'react-redux'
-import { useHistory } from 'react-router-dom'
+import { shallowEqual, useSelector } from 'react-redux'
 import {
   PageWrapper,
-  ContainerWrapper,
+  LearnModuleHeader,
   FlexWrapper,
-  LearnModuleHeader
+  ContainerWrapper
 } from '../../../components'
-import ROUTES from '../../../const/routes'
 import { getSubjectLogo } from '../../../helpers'
-import { UpdateSelectedChapterId } from '../../../redux/learn/actions'
 import { RootState } from '../../../redux/store'
 import {
-  ChapterNumber,
   CardSubtitle,
-  CardTitle,
-  ChapterWrapper,
-  SubtitleWrapper
-} from '../../student/Assesment/subcomponents'
-import { HeaderWrapper } from '../../student/Learn/Chapter/subcomponents'
+  HeaderWrapper,
+  ChapterNumber,
+  SubtitleWrapper,
+  CardTitle
+} from '../../student/Learn/Chapter/subcomponents'
+import { ChapterWrapper } from '../../student/Learn/subcomponent'
 
-const LocalChapterList = () => {
-  const { selectedSubjectId, getLoaclSubjectLists } = useSelector(
+const LocalMaterial = () => {
+  const { selectedChapterId, getLoaclSubjectLists } = useSelector(
     (state: RootState) => ({
-      selectedSubjectId: state.learn.selectedSubjectId,
+      selectedChapterId: state.learn.selectedChapterId,
       getLoaclSubjectLists: state.learn.getLoaclSubjectLists as any
     }),
     shallowEqual
   )
 
-  console.log(selectedSubjectId)
-
-  const [filterData] = getLoaclSubjectLists?.Subjects?.filter(
-    (list: any, index: any) => list?.SubjectId === selectedSubjectId
+  const [filterData] = getLoaclSubjectLists?.Subjects?.map((list: any) =>
+    list?.Chapters?.filter((d: any) => d?.ChapterID === selectedChapterId)
   )
-
-  const dispatch = useDispatch()
-  const histroy = useHistory()
+  console.log(filterData[0]?.Session)
+  console.log(selectedChapterId)
+  console.log('====================================')
   return (
     <PageWrapper>
       <ContainerWrapper noMargin>
@@ -45,9 +40,9 @@ const LocalChapterList = () => {
           <div id="wrapper">
             <LearnModuleHeader
               src={getSubjectLogo({
-                subject: `${filterData?.SubjectName}`
+                subject: `${filterData?.SessionName}`
               })}
-              title={filterData?.SubjectName}
+              title={filterData?.SessionName}
             />
           </div>
           {/* <DropDownWrapper>
@@ -60,16 +55,10 @@ const LocalChapterList = () => {
         </HeaderWrapper>
 
         <>
-          {filterData?.Chapters?.map((item: any, index: any) => (
-            <ChapterWrapper
-              key={index}
-              onClick={() => {
-                histroy.push(ROUTES.LOCAL_MATERIALLIST)
-                dispatch(UpdateSelectedChapterId(item?.ChapterID))
-              }}
-            >
+          {filterData[0]?.Session?.map((item: any, index: any) => (
+            <ChapterWrapper key={index} onClick={() => {}}>
               <ChapterNumber>{index + 1}</ChapterNumber>
-              <CardTitle fontSize="18px">{item.ChapterName}</CardTitle>
+              <CardTitle fontSize="18px">{item.SessionName}</CardTitle>
               <SubtitleWrapper>
                 <FlexWrapper noMargin noPadding>
                   <CardSubtitle
@@ -77,11 +66,7 @@ const LocalChapterList = () => {
                     fontSize="12px"
                     fontWeight="500"
                   >
-                    {item?.Topics?.map((dd: any) => dd?.Material.length).reduce(
-                      (sum: any, cur: any) => Number(sum) + Number(cur),
-                      0
-                    )}{' '}
-                    Videos
+                    {item?.Material?.length} Videos
                   </CardSubtitle>
 
                   <CardSubtitle
@@ -118,4 +103,4 @@ const LocalChapterList = () => {
   )
 }
 
-export default LocalChapterList
+export default LocalMaterial

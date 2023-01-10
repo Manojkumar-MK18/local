@@ -89,7 +89,8 @@ const ROUTES = {
   LEARN_SETTINGS: '/settings',
 
   LOCALLEARN: '/localLearn',
-  LOCALCHAPTER_LIST: '/localChapterList'
+  LOCALCHAPTER_LIST: '/localChapterList',
+  LOCAL_MATERIALLIST: '/localMatrialList'
 }
 
 export default ROUTES

@@ -88,6 +88,7 @@ import {
 } from './pages'
 import LoacalLearn from './pages/localLearn'
 import LocalChapterList from './pages/localLearn/ChapterList'
+import LocalMaterial from './pages/localLearn/MaterialList'
 
 const Routes = () => {
   return (
@@ -300,6 +301,10 @@ const Routes = () => {
       <ProtectedRoute
         path={ROUTES.LOCALCHAPTER_LIST}
         component={LocalChapterList}
+      />
+      <ProtectedRoute
+        path={ROUTES.LOCAL_MATERIALLIST}
+        component={LocalMaterial}
       />
     </Switch>
   )
