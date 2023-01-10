@@ -26,7 +26,7 @@ import { ChapterWrapper } from '../../student/Learn/subcomponent'
 import pdfIcon from '../../../assets/pdf-icon.png'
 import { Modal } from 'react-bootstrap'
 import { PdfFrame } from '../../teacher/Assignment/subcomponents'
-
+import DocViewer, { PDFRenderer, PNGRenderer } from 'react-doc-viewer'
 const LocalTeachingTopicList = () => {
   const {
     selectedChapterId,
@@ -43,14 +43,16 @@ const LocalTeachingTopicList = () => {
     shallowEqual
   )
 
-  const [filterData] = getLoaclSubjectLists?.Subjects?.map((list: any) =>
-    list?.Chapters?.map((d: any) =>
-      d?.Session?.filter((d: any) => d?.SessionId === selectedSessionId)
-    )
+  const filterData = getLoaclSubjectLists?.Subjects?.map(
+    (list: any) =>
+      list?.Chapters?.map((d: any) =>
+        d?.Session?.filter((d: any) => d?.SessionId === selectedSessionId)
+      )[0]
   )
 
   const [finalFilter] = filterData?.filter((dd: any) => dd.length)
   const [showPdf1, setShowPdf1] = useState('')
+  const [pptx, setPPtx] = useState('')
 
   console.log(finalFilter)
   console.log(selectedSessionId)
@@ -88,7 +90,7 @@ const LocalTeachingTopicList = () => {
                     title={pdf?.TeachingMaterialName}
                     src={pdfIcon}
                     onSubmit={() => {
-                      setShowPdf1(pdf?.TeachingMaterialLink)
+                      setPPtx(pdf?.TeachingMaterialLink)
                     }}
                   />
                 ))
@@ -104,7 +106,7 @@ const LocalTeachingTopicList = () => {
                     title={pdf?.TeachingMaterialName}
                     src={pdfIcon}
                     onSubmit={() => {
-                      setShowPdf1(pdf?.TeachingMaterialLink)
+                      setPPtx(pdf?.TeachingMaterialLink)
                     }}
                   />
                 ))
@@ -132,6 +134,25 @@ const LocalTeachingTopicList = () => {
           loading="lazy"
           role={'dialog'}
           onContextMenu={() => alert('ff')}
+        />
+      </Modal>
+      <Modal
+        show={pptx !== '' ? true : false}
+        onHide={() => {
+          setPPtx('')
+        }}
+        centered
+        size="xl"
+        backdrop="static"
+      >
+        <Modal.Header closeButton>Pdf Viewer</Modal.Header>
+        <DocViewer
+          pluginRenderers={[PDFRenderer, PNGRenderer]}
+          documents={[
+            {
+              uri: ''
+            }
+          ]}
         />
       </Modal>
     </PageWrapper>

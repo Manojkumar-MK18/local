@@ -21,6 +21,7 @@ import {
   LeranModule,
   IconModule
 } from '../student/Learn/subcomponent'
+import { MaterialWrapper } from '../teacher/TeacherLearn/Materials/subcomponent'
 import { DropdownList } from './const'
 
 const LoacalLearn = () => {
@@ -49,9 +50,9 @@ const LoacalLearn = () => {
             </DropdownWrapper>
           </StudentWrapper>
           <LeranModule>
-            <SectionTitle fontSize={'12'} title={'title'} />
-            {getSubjectLists?.Subjects?.map((list: any, index: any) => (
-              <div key={index} style={{ display: 'flex' }}>
+            <SectionTitle fontSize={'12'} title={'Learn'} />
+            <IconModule>
+              {getSubjectLists?.Subjects?.map((list: any, index: any) => (
                 <IconChapterButton
                   key={index}
                   title={list?.SubjectName}
@@ -62,8 +63,8 @@ const LoacalLearn = () => {
                     dispatch(UpdateSelectedSubjectId(list?.SubjectId))
                   }}
                 />
-              </div>
-            ))}
+              ))}
+            </IconModule>
           </LeranModule>
         </>
       </ContainerWrapper>
