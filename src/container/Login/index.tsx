@@ -32,17 +32,11 @@ import { useHistory } from 'react-router-dom'
 import ROUTES from '../../const/routes'
 import { Loader, ToastMessage } from '../../components'
 import { ROLE } from '../../helpers/determineMenu'
-import {
-  AuthenticationDetails,
-  CognitoUser,
-  CognitoUserPool
-} from 'amazon-cognito-identity-js'
-import { cognitoPoolData } from '../../services'
-import { handleAuthenticate } from '../../redux/userDetails/api'
+import { updateIsLoggedIn } from '../../redux/userDetails/actions'
 
 const Login = (): ReactElement => {
   const {
-    user: { isLoading, isLoggedIn, hasError, userName, password, userInfo }
+    user: { isLoading, isLoggedIn, hasError, userInfo }
   } = useSelector(
     (state: RootState) => ({
       user: state.user
@@ -51,53 +45,6 @@ const Login = (): ReactElement => {
   )
 
   const [login, setLogin] = useState({ username: '', password: '' })
-
-  const userPool = new CognitoUserPool(cognitoPoolData)
-
-  // eslint-disable-next-line no-unused-vars
-  const handelAuthenticate = (e: any) => {
-    e.preventDefault()
-    const authenticationUserDetails = {
-      Username: userName,
-      Password: password
-    }
-    const authenticationDetails = new AuthenticationDetails(
-      authenticationUserDetails
-    )
-    let userData = {
-      Username: userName,
-      Pool: userPool
-    }
-
-    const cognitoUser = new CognitoUser(userData)
-    cognitoUser.authenticateUser(authenticationDetails, {
-      onSuccess: function (res) {
-        let accessToken = res.getAccessToken().getJwtToken()
-        console.log('accessToken', accessToken)
-        console.log('result', res)
-      },
-      onFailure: function (err) {
-        console.log(err)
-      }
-    })
-  }
-
-  // useEffect(() => {
-  //   const user = userPool?.getCurrentUser()
-  //   console.log(user);
-  //   user?.getSession(({ err, session }: any) => {
-  //     if (err) {
-  //       dispatch(updateIsLoggedIn(false))
-  //     } else {
-  //       if (session.isValid()) {
-  //         dispatch(updateIsLoggedIn(true))
-  //       } else {
-  //         dispatch(updateIsLoggedIn(false))
-  //       }
-  //     }
-  //   })
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [])
 
   const dispatch = useDispatch()
   const history = useHistory()
@@ -135,8 +82,8 @@ const Login = (): ReactElement => {
       <Container>
         <FormContainer
           onSubmit={(e: SyntheticEvent) => {
-            handelAuthenticate(e)
-            dispatch(handleAuthenticate(login))
+            e.preventDefault()
+            dispatch(updateIsLoggedIn(true))
           }}
         >
           <LogoWrapper>
