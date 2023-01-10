@@ -58,19 +58,19 @@ const Login = (): ReactElement => {
     if (isLoggedIn) {
       switch (userInfo?.user_role) {
         case ROLE.STUDENT:
-          history.push(ROUTES.LEARN)
+          history.push(ROUTES.LOCALLEARN)
           break
         case ROLE.ADMIN:
-          history.push(ROUTES.DASHBOARD)
+          history.push(ROUTES.LOCALLEARN)
           break
         case ROLE.INSTITUTE_ADMIN:
-          history.push(ROUTES.DASHBOARD)
+          history.push(ROUTES.LOCALLEARN)
           break
         case ROLE.TEACHER_ADMIN:
-          history.push(ROUTES.TEACHER_DASHBOARD)
+          history.push(ROUTES.LOCALLEARN)
           break
         default:
-          history.push(ROUTES.DASHBOARD)
+          history.push(ROUTES.LOCALLEARN)
       }
     }
 

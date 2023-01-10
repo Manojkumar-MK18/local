@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useEffect } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
 import {
@@ -33,7 +33,10 @@ const LoacalLearn = () => {
   )
   const dispatch = useDispatch()
   const history = useHistory()
-
+  useEffect(() => {
+    dispatch(getLocalSubjectsListGrade6('grade6'))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
   return (
     <LearnWrapper>
       <ContainerWrapper>
@@ -44,7 +47,7 @@ const LoacalLearn = () => {
                 placeholder="Select Course"
                 dropdownList={DropdownList}
                 handleSelect={(va: DropdownListProps) => {
-                  dispatch(getLocalSubjectsListGrade6(va.name))
+                  dispatch(getLocalSubjectsListGrade6(va.name || 'grade6'))
                 }}
               />
             </DropdownWrapper>
