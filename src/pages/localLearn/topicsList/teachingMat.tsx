@@ -60,7 +60,7 @@ const LocalTeachingTopicList = () => {
   console.log(selectedSessionId)
   return (
     <PageWrapper>
-      <ContainerWrapper noMargin>
+      <ContainerWrapper>
         <HeaderWrapper>
           <div id="wrapper">
             <LearnModuleHeader

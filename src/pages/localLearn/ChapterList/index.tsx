@@ -42,7 +42,7 @@ const LocalChapterList = () => {
   const histroy = useHistory()
   return (
     <PageWrapper>
-      <ContainerWrapper noMargin>
+      <ContainerWrapper>
         <HeaderWrapper>
           <div id="wrapper">
             <LearnModuleHeader

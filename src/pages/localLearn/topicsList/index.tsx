@@ -63,7 +63,7 @@ const LocalTopicList = () => {
 
   return (
     <PageWrapper>
-      <ContainerWrapper noMargin>
+      <ContainerWrapper>
         <HeaderWrapper>
           <div id="wrapper">
             <LearnModuleHeader

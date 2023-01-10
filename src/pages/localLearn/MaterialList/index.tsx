@@ -46,7 +46,7 @@ const LocalMaterial = () => {
 
   return (
     <PageWrapper>
-      <ContainerWrapper noMargin>
+      <ContainerWrapper>
         <HeaderWrapper>
           <div id="wrapper">
             <LearnModuleHeader
