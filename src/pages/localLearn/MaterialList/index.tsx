@@ -38,15 +38,11 @@ const LocalMaterial = () => {
 
   const history = useHistory()
   const dispatch = useDispatch()
-  const [filterData] = getLoaclSubjectLists?.Subjects?.map((list: any) =>
+  const filterData = getLoaclSubjectLists?.Subjects?.map((list: any) =>
     list?.Chapters?.filter((d: any) => d?.ChapterID === selectedChapterId)
   )
-  console.log(
-    getLoaclSubjectLists?.Subjects?.map((list: any) =>
-      list?.Chapters?.filter((d: any) => d?.ChapterID)
-    )
-  )
-  console.log(selectedChapterId)
+
+  const [finalFilter] = filterData?.filter((c: any) => c.length)
 
   return (
     <PageWrapper>
@@ -75,7 +71,7 @@ const LocalMaterial = () => {
         >
           <TAB eventKey="material" title="Material">
             <>
-              {filterData[0]?.Session?.map((item: any, index: any) => (
+              {finalFilter[0]?.Session?.map((item: any, index: any) => (
                 <ChapterWrapper
                   key={index}
                   onClick={() => {
@@ -128,7 +124,7 @@ const LocalMaterial = () => {
           </TAB>
           <TAB eventKey="tmaterial" title="TeachingMaterial">
             <>
-              {filterData[0]?.Session?.map((item: any, index: any) => (
+              {finalFilter[0]?.Session?.map((item: any, index: any) => (
                 <ChapterWrapper
                   key={index}
                   onClick={() => {
