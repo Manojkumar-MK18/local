@@ -55,18 +55,20 @@ const LoacalLearn = () => {
           <LeranModule>
             <SectionTitle fontSize={'12'} title={'Learn'} />
             <IconModule>
-              {getSubjectLists?.Subjects?.map((list: any, index: any) => (
-                <IconChapterButton
-                  key={index}
-                  title={list?.SubjectName}
-                  isBold
-                  src={getSubjectLogo({ subject: list?.SubjectName })}
-                  onSubmit={() => {
-                    history.push(ROUTES.LOCALCHAPTER_LIST)
-                    dispatch(UpdateSelectedSubjectId(list?.SubjectId))
-                  }}
-                />
-              ))}
+              {getSubjectLists?.Subjects?.map((list: any, index: any) => {
+                return (
+                  <IconChapterButton
+                    key={index}
+                    title={list?.SubjectName}
+                    isBold
+                    src={getSubjectLogo({ subject: list?.SubjectName })}
+                    onSubmit={() => {
+                      history.push(ROUTES.LOCALCHAPTER_LIST)
+                      dispatch(UpdateSelectedSubjectId(list?.SubjectId))
+                    }}
+                  />
+                )
+              })}
             </IconModule>
           </LeranModule>
         </>
