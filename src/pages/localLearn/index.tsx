@@ -47,9 +47,6 @@ const LoacalLearn = () => {
   const SubjectLists = getSubjectLists.Subjects?.filter(
     (list: any) => list.SubjectId === `${userSubjectDetails}`
   )
-  console.log('====================================')
-  console.log(userDetails)
-  console.log(SubjectLists)
 
   return (
     <LearnWrapper>
