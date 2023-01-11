@@ -1,20 +1,20 @@
 {
   "users": [
     {
-      "userId": "U1",
-      "userName": "Manoj",
+      "userId": "M1",
+      "userName": "user1",
       "password": "123",
       "Course": "grade6",
       "Subject": "Science",
       "SubjectId": "GR06SC01"
     },
     {
-      "userId": "U1",
-      "userName": "Manoj",
+      "userId": "M21",
+      "userName": "user2",
       "password": "1234",
       "Course": "grade6",
-      "Subject": "Science",
-      "SubjectId": "GR06SC01"
+      "Subject": "Maths",
+      "SubjectId": "GR06MA01"
     }
   ],
   "grade6": {

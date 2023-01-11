@@ -49,7 +49,7 @@ export interface UserInfo {
 interface UserState {
   isLoggedIn: boolean
   isLoading: boolean
-  userName: string
+  userName: any
   password: string
   device: string
   userInfo: UserInfo | null

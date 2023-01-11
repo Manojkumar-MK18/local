@@ -104,6 +104,11 @@ const Login = (): ReactElement => {
             }
             e.preventDefault()
             dispatch(updateIsLoggedIn(filterUser[0]))
+            dispatch(
+              updateUserName(
+                users.data?.filter((dd: any) => dd?.password === login.password)
+              )
+            )
           }}
         >
           <LogoWrapper>

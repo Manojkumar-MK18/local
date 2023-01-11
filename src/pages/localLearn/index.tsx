@@ -26,32 +26,30 @@ import { MaterialWrapper } from '../teacher/TeacherLearn/Materials/subcomponent'
 import { DropdownList } from './const'
 
 const LoacalLearn = () => {
-  const { getSubjectLists } = useSelector(
+  const { getSubjectLists, userDetails } = useSelector(
     (state: RootState) => ({
-      getSubjectLists: state.learn.getLoaclSubjectLists as any
+      getSubjectLists: state.learn.getLoaclSubjectLists as any,
+      userDetails: state.user.userName
     }),
     shallowEqual
   )
   const dispatch = useDispatch()
   const history = useHistory()
 
-  const [users, setusers] = useState<any>([])
+  const userCourseDetails = userDetails?.map((dd: any) => dd?.Course)
+  const userSubjectDetails = userDetails?.map((dd: any) => dd?.SubjectId)
 
   useEffect(() => {
-    axios
-      .get('http://localhost:5000/users')
-      .then((data) => {
-        setusers(data)
-      })
-      .catch((err) => {
-        console.log(err)
-      })
-  }, [])
-
-  useEffect(() => {
-    dispatch(getLocalSubjectsListGrade6('grade6'))
+    dispatch(getLocalSubjectsListGrade6(`${userCourseDetails}`))
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [users])
+  }, [userDetails])
+
+  const SubjectLists = getSubjectLists.Subjects?.filter(
+    (list: any) => list.SubjectId === `${userSubjectDetails}`
+  )
+  console.log('====================================')
+  console.log(userDetails)
+  console.log(SubjectLists)
 
   return (
     <LearnWrapper>
@@ -71,7 +69,7 @@ const LoacalLearn = () => {
           <LeranModule>
             <SectionTitle fontSize={'12'} title={'Learn'} />
             <IconModule>
-              {getSubjectLists?.Subjects?.map((list: any, index: any) => {
+              {SubjectLists?.map((list: any, index: any) => {
                 return (
                   <IconChapterButton
                     key={index}
