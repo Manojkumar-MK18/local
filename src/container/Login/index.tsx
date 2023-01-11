@@ -33,6 +33,7 @@ import ROUTES from '../../const/routes'
 import { Loader, ToastMessage } from '../../components'
 import { ROLE } from '../../helpers/determineMenu'
 import { updateIsLoggedIn } from '../../redux/userDetails/actions'
+import axios from 'axios'
 
 const Login = (): ReactElement => {
   const {
@@ -45,6 +46,8 @@ const Login = (): ReactElement => {
   )
 
   const [login, setLogin] = useState({ username: '', password: '' })
+  // eslint-disable-next-line no-unused-vars
+  const [users, setusers] = useState<any>([])
 
   const dispatch = useDispatch()
   const history = useHistory()
@@ -77,13 +80,30 @@ const Login = (): ReactElement => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isLoggedIn])
 
+  useEffect(() => {
+    axios
+      .get('http://localhost:5000/users')
+      .then((data) => {
+        setusers(data)
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+  }, [])
+
   return (
     <LoginWrapper>
       <Container>
         <FormContainer
           onSubmit={(e: SyntheticEvent) => {
+            const filterUser = users.data
+              ?.map((dd: any) => dd?.password === login.password)
+              .filter((d: any) => d === true)
+            if (filterUser.length === 0) {
+              dispatch(updateHasError(true))
+            }
             e.preventDefault()
-            dispatch(updateIsLoggedIn(true))
+            dispatch(updateIsLoggedIn(filterUser[0]))
           }}
         >
           <LogoWrapper>

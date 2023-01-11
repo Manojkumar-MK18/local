@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React, { useEffect } from 'react'
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
 import {
@@ -33,10 +34,25 @@ const LoacalLearn = () => {
   )
   const dispatch = useDispatch()
   const history = useHistory()
+
+  const [users, setusers] = useState<any>([])
+
+  useEffect(() => {
+    axios
+      .get('http://localhost:5000/users')
+      .then((data) => {
+        setusers(data)
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+  }, [])
+
   useEffect(() => {
     dispatch(getLocalSubjectsListGrade6('grade6'))
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [users])
+
   return (
     <LearnWrapper>
       <ContainerWrapper>

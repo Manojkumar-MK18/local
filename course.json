@@ -1,5 +1,23 @@
 {
-  "grade6": { 
+  "users": [
+    {
+      "userId": "U1",
+      "userName": "Manoj",
+      "password": "123",
+      "Course": "grade6",
+      "Subject": "Science",
+      "SubjectId": "GR06SC01"
+    },
+    {
+      "userId": "U1",
+      "userName": "Manoj",
+      "password": "1234",
+      "Course": "grade6",
+      "Subject": "Science",
+      "SubjectId": "GR06SC01"
+    }
+  ],
+  "grade6": {
     "course_id": "GR06001",
     "Course_Name": "Grade06",
     "Subjects": [
